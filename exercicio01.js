@@ -1,3 +1,15 @@
+function apagarLuzes() {
+    let resposta = prompt("Gostaria de apagar as luzes? (sim ou não)").toLowerCase();
+
+    if (resposta === "sim" || resposta === "s") {
+        document.body.style.backgroundColor = "#000000ff"; // Fundo escuro
+        document.body.style.color = "white"; // Texto claro
+    } else {
+        document.body.style.backgroundColor = "white"; // Fundo padrão
+        document.body.style.color = "black"; // Texto padrão
+    }
+}
+
 // 1️⃣ Cadastro simples
 function exercicio01() {
     let nome = "Guilherme";
@@ -138,7 +150,6 @@ function exercicio08() {
     const fahrenheit = (celsius * 9 / 5) + 32;
     console.log(`A temperatura em Fahrenheit é ${fahrenheit.toFixed(2)}`);
 }
-
 
 
 // 9️⃣ Soma e multiplicação
