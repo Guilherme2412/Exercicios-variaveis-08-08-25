@@ -12,19 +12,23 @@ function apagarLuzes() {
 
 function exercicio07() {
     let numero = parseFloat(prompt("Digite um número").replace(",", "."));
-    let parImparNeutro; 
-    let positivoNegativo; maiorQue10; menorOuIgual50; menorQue-10; maiorOuIgual30; diferenteDe1;
+    let parImparNeutro; positivoNegativo; maiorQue10; menorOuIgual50; menorQue10; maiorOuIgual30; diferenteDe1;
 
     if (numero === 0) {
-        parImparNeutro = console.log("Número neutro")
+        parImparNeutro = "Número neutro"
     } else if(numero % 2 === 0) {
-        parImparNeutro = console.log("Número par")
+        parImparNeutro = "Número par"
     } else {
-        parImparNeutro = console.log("Número impar")
+        parImparNeutro = "Número impar"
+    }
+
+    if (numero > 0) {
+        positivoNegativo = "Positivo"
+    } else {
+        positivoNegativo = "Negativo"
     }
 
 
+    console.log(parImparNeutro + positivoNegativo + maiorQue10 + menorOuIgual50 + menorQue10 + maiorOuIgual30 + diferenteDe1)
+
 }
-
-
-// R$ 4,50  
