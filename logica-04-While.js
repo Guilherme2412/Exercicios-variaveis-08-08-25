@@ -161,12 +161,13 @@ function cuponsVIPOuOFF() {
     let cuponsVip = 0;
     let cuponsOff = 0;
 
-    while(indice < 5) {
+    while (indice < 5) {
         let cupons = prompt("Seu cupom é vip?").toLowerCase().trim();
-        
+
         if (cupons.startsWith("vip")) {
             cuponsVip = cuponsVip + 1;
-        } else {cupons.endsWith("off")
+        } else {
+            cupons.endsWith("off")
             cuponsOff = cuponsOff + 1;
         }
 
@@ -182,16 +183,16 @@ function primeiroNome() {
     let nomesRegistrados = "";
 
 
-    while(indice < 3) {
-    nomeCompleto = prompt("Digite seu primeiro nome: ").trim();
+    while (indice < 3) {
+        nomeCompleto = prompt("Digite seu primeiro nome: ").trim();
 
-    let partesDoNome = nomeCompleto.split(" ");
+        let partesDoNome = nomeCompleto.split(" ");
 
-    let primeiroNome = partesDoNome [0];
+        let primeiroNome = partesDoNome[0];
 
-    nomesRegistrados = nomesRegistrados + primeiroNome + "\n";
+        nomesRegistrados = nomesRegistrados + primeiroNome + "\n";
 
-    indice = indice + 1;
+        indice = indice + 1;
 
     }
 

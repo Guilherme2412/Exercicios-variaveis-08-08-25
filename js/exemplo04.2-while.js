@@ -29,13 +29,13 @@ function sistemaNinja() {
     apresentarRelatorio();
 }
 
-function apresentarDadosDoNinja(nome, nivel, missoes, vila, elementos, salario){
+function apresentarDadosDoNinja(nome, nivel, missoes, vila, elementos, salario) {
     alert(
-        "Ninja: " + nome + 
-        "\nNível: " + nivel + 
-        "\nQuantidade de Missões: " + missoes + 
-        "\nVila: " + vila + 
-        "\nElementos: " + elementos + 
+        "Ninja: " + nome +
+        "\nNível: " + nivel +
+        "\nQuantidade de Missões: " + missoes +
+        "\nVila: " + vila +
+        "\nElementos: " + elementos +
         "\nSalário: " + salario
     )
 }

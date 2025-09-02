@@ -276,7 +276,7 @@ function validarInt() {
     }
 }
 
-function exemploSoma(){
+function exemploSoma() {
     let indice = 0;
     let soma = 0;
     while (indice < 3) {
@@ -289,7 +289,7 @@ function exemploSoma(){
     alert("Soma: " + soma)
 }
 
-function exemploMedia(){
+function exemploMedia() {
     let indice = 0;
     let soma = 0;
     while (indice < 3) {

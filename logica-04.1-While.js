@@ -21,8 +21,8 @@ function comprasComPrecoBR() {
 function linhaCSV() {
     let indice = 0;
 
-    while(1){}
-    
+    while (1) { }
+
     //2
 }
 
